@@ -1,0 +1,72 @@
+.image-size, .image-width{
+  width: 50%;
+  border: none;
+  outline: none;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  appearance: none;
+  border-radius: .25rem;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.form-control {
+ width: 600px;
+}
+
+.image-label {
+  margin-right: 10px;
+  font-size: medium;
+}
+
+.options-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 15%;
+  margin-bottom: 20px;
+}
+
+.btn {
+  display: block;
+  height: 50px;
+  margin-bottom: 15px;
+}
+.preview-btn {
+  display: inline;
+  margin-bottom: 0px;
+  padding: 0 12px !important;
+}
+
+.parameters{
+  gap: 20px;
+  align-items: baseline;
+  margin-bottom: 15px;
+}
+
+.parameters p {
+  position: relative;
+  top: -5px;
+  padding: 0;
+  margin: 0;
+}
+
+.parameters-value{
+  background-color: #59c9e7;
+  padding: 12px 3px;
+  border-radius: 3px;
+  color: #363738;
+  font-size: 18px;
+}
+
+.line-height{
+  line-height: 35px;
+}
+.compressed-button{
+  width: 100%;
+}
+
+
